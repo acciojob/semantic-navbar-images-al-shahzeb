@@ -1,2 +1,43 @@
 
 /* Your CSS Code here. */
+*{
+    margin: 0;
+    padding: 0;
+}
+.flex{
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+    
+}
+
+.nav-bar{
+    background-color: palevioletred;
+    padding: 15px;
+    margin: 0;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: black;
+    font-family: monospace;
+    font-weight: 700;
+    
+}
+
+a:hover{
+    transition: 0.2s ease-out ;
+    color: rgb(65, 60, 163);
+}
+h1{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+.audio-div{
+    justify-content: center;
+    gap: 40px;
+}
+ul{
+    list-style: none;
+} 
